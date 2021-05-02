@@ -1,9 +1,11 @@
 [package]
-name = "tkrminal-rs"
+name = "tkrminal"
 version = "0.1.0"
 authors = ["kgtkr <kgtkr.jp@gmail.com>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+winit = "0.24"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.5"
+dirs = "3.0"
